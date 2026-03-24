@@ -2,7 +2,7 @@ name: 浙财图书馆自动任务
 
 on:
   schedule:
-    - cron: "30 12 * * *"  # 北京时间 20:30 运行（测试用）
+    - cron: "38 12 * * *"  # 北京时间 20:30 运行（测试用）
   workflow_dispatch:       # 允许手动触发
 
 jobs:
