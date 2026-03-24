@@ -1,11 +1,5 @@
-from lib.zufe_library import BookRenew
-from config import USERNAME, PASSWORD
-
-if __name__ == "__main__":
-    print("===== 浙财大图书馆续期脚本 =====")
-    renew_tool = BookRenew(USERNAME, PASSWORD)
-    login_ok = renew_tool.login()
-    if not login_ok:
-        print("登录失败")
-        exit()
-    renew_tool.batch_renew()
+print("=" * 30)
+print("✅ 测试脚本运行成功！")
+print("🎯 浙财图书馆自动化脚本")
+print("⏰ 当前时间：测试用")
+print("=" * 30)
